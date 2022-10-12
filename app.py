@@ -31,7 +31,6 @@ with col1:
   st.write( ""   "")
   st.write( """ 16  Total_Amt_Chng_Q4_Q1    """)                                                                                                              
   st.write( ""   "")
-  st.write( ""   "")
   st.write( """ 17  Total_Trans_Amt   """)          
   st.write( """ 18  Total_Trans_Ct         """)                                                                                                               
   st.write( """ 19  Total_Ct_Chng_Q4_Q1  """)        
