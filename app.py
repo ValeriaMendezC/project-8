@@ -84,10 +84,11 @@ st.caption('Participación por categoria de ingreso de las personas en el estudi
 st.image("./img/Img5.png") 
 st.caption('Participación por categoria de tarjeta de las personas en el estudio')
 
+
+st.write("**En los siguientes graficos se muestra el comportamiento del modelo de clasificación**")
+
 st.image("./img/Img6.png")  
 st.caption('Matriz de confusion de la predicción del modelo')
-
-st.write("En los siguientes graficos se muestra el comportamiento del modelo de clasificación")
 
 st.image("./img/img7.png")
 st.caption('Arbol de clasificación')
