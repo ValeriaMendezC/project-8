@@ -150,7 +150,7 @@ clsr = pkl.load(clsr_pickle)
 clsr_pickle.close()
 
 
-prediction = clsr.predict([[Gender,Marital_Status,Customer_Age,Education_Level,Months_on_book,Income_Category,Total_Relationship_Count,Months_Inactive_12_mon, Credit_Limit,Total_Revolving_Bal,Avg_Open_To_Buy,Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,Total_Ct_Chng_Q4_Q1,Avg_Utilization_Ratio]]) 
+prediction = clsr.predict([np.array([Gender,Marital_Status,Customer_Age,Education_Level,Months_on_book,Income_Category,Total_Relationship_Count,Months_Inactive_12_mon, Credit_Limit,Total_Revolving_Bal,Avg_Open_To_Buy,Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,Total_Ct_Chng_Q4_Q1,Avg_Utilization_Ratio]).reshape(1,-1)][0])[0]]) 
 print(prediction) 
     
 resultado = 'Existing customer' if prediction ==1 else 'Attrited Customer'
