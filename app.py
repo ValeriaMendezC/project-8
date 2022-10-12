@@ -68,6 +68,14 @@ with col2:
   
 st.subheader(""" Graficas""")
 st.write("A continuación se muestran nlos graficos relevantes para la descripción de variables")
-st.image("./img/img10.png")
+
+st.image("./img/img1.png")
+st.caption('Participación por edad de las personas en el estudio')
+
+st.image("./img/img2.png")
+st.caption('Participación por estado civil de las personas en el estudio')
+
+st.image("./img/img3.png")
+st.caption('Participación por hombres y mujeres como clientes actios o inactivos en relación a su periodo en relacion al banco')
   
   
