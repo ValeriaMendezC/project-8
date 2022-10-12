@@ -122,7 +122,7 @@ Gender = st.selectbox('Genero:',('Masculino','Femenino'))
 Gender = 1 if Gender == 'Masculino' else 0
 
 Education_Level = st.number_input('Nivel educativo')
-Marital_Status = st.selectbox('Estado Civil:',('Casado','Soltero')
+Marital_Status = st.selectbox('Estado Civil:',('Casado','Soltero'))
 
 Marital_Status = 1 if Marital_Status == 'Casado' else 0
 
