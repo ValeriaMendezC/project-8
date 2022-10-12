@@ -66,8 +66,8 @@ with col2:
   st.write( """Índice de utilización promedio de la tarjeta """)
   
   
-  st.subheader(""" Graficas""")
-  st.write("A continuación se muestran nlos graficos relevantes para la descripción de variables")
-  st.image("./img/img10.png")
+st.subheader(""" Graficas""")
+st.write("A continuación se muestran nlos graficos relevantes para la descripción de variables")
+st.image("./img/img10.png")
   
   
