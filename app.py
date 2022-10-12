@@ -78,4 +78,25 @@ st.caption('Participación por estado civil de las personas en el estudio')
 st.image("./img/Img3.png")
 st.caption('Participación por hombres y mujeres como clientes actios o inactivos en relación a su periodo en relacion al banco')
   
-  
+st.image("./img/Img4.png")
+st.caption('Participación por categoria de ingreso de las personas en el estudio')
+
+st.image("./img/Img5.png") 
+st.caption('Participación por categoria de tarjeta de las personas en el estudio')
+
+st.image("./img/Img6.png")  
+st.caption('Matriz de confusion de la predicción del modelo')
+
+st.write("En los siguientes graficos se muestra el comportamiento del modelo de clasificación")
+
+st.image("./img/img7.png")
+st.caption('Arbol de clasificación')
+
+st.image("./img/img8.png")
+st.caption('Insidencia de las variables en el modelo por barras')
+
+st.image("./img/img9.png")
+st.caption('Insidencia de las variables en el modelo: beeswarm')
+
+st.image("./img/img10.png")
+st.caption('Insidencia de las variables en el modelo: waterfall')
