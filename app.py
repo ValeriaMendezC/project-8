@@ -6,4 +6,4 @@ import pickle as pkl
 data=pd.read_csv("https://raw.githubusercontent.com/labeconometria/MLxE/main/proyectos1er/dataset_2.csv")
 st.title('hola')
 
-st.image("./img/img1.png")
+st.image('./img/Img1.png')
