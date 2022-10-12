@@ -32,7 +32,12 @@ with col1:
   st.write( """ 16  Total_Amt_Chng_Q4_Q1    """)                                                                                                              
   st.write( ""   "")
   st.write( ""   "")
-  st.write( """ 17  Total_Trans_Amt   """)                                                                                                                    
+  st.write( """ 17  Total_Trans_Amt   """)          
+  st.write( """ 18  Total_Trans_Ct         """)                                                                                                               
+  st.write( """ 19  Total_Ct_Chng_Q4_Q1  """)        
+  st.write( ""   "")
+  st.write( """ 20  Avg_Utilization_Ratio    """)                                                                                                             
+
  
 
   
@@ -55,3 +60,6 @@ with col2:
   st.write( """Línea de crédito abierta a la compra (media de los últimos 12 meses) """) 
   st.write( """Variación del importe de las transacciones (cuarto trimestre sobre primer trimestre) """)
   st.write( """Cantidad total de las transacciones (últimos 12 meses)   """)
+  st.write( """Recuento de transacciones  """) 
+  st.write( """Cambio en el recuento de transacciones (cuarto trimestre sobre primer trimestre) """) 
+  st.write( """Índice de utilización promedio de la tarjeta """)
