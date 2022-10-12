@@ -117,13 +117,23 @@ st.markdown("""
 
 nombre = st.text_input('Nombre completo')
 Customer_Age =st.number_input('Edad')
-Gender = st.number_input('Genero')
+Gender = st.selectbox('Genero:',('Masculino','Femenino'))
 
 Gender = 1 if Gender == 'Masculino' else 0
+
 Education_Level = st.number_input('Nivel educativo')
-Marital_Status = st.number_input('Estado civil')
+Marital_Status = st.selectbox('Estado Civil:',('Casado','Soltero', 'Divorciado', 'Desconocido')
+
 Marital_Status = 1 if Marital_Status == 'Casado' else 0
-Income_Category= st.number_input('Categoría de ingresos ')
+
+Income_Category= st.selectbox(('Categoría de ingresos:',('Unknown','Less than $40K','$40K - $60K','$60K - $80K','$80K - $120K','$120K +')
+Income_Category = 0 if Income_Category == 'Unknown'
+Income_Category = 1 if Income_Category == 'Less than $40K' 
+Income_Category = 2 if Income_Category == '$40K - $60K' 
+Income_Category = 3 if Income_Category == '$60K - $80K'
+Income_Category = 4 if Income_Category == '$80K - $120K' 
+Income_Category = 5 if Income_Category == '$120K +'
+                            
 Card_Category = st.number_input('Tipo de tarjeta')
 Months_on_book = st.number_input('Duración de la relación con el banco')
 Total_Relationship_Count = st.number_input('Número total de productos')
