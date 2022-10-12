@@ -104,6 +104,42 @@ st.caption('Insidencia de las variables en el modelo: waterfall')
 
 
 st.subheader("""Notebook """)
+st.write("Acontinuación encontrará el link al notebook de entrenamiento del modelo")
 st.write('https://github.com/ValeriaMendezC/Repositorio/blob/d014783430add3f37b81a4497141dbb6bfb70838/project8_final.ipynb')
 
+
+st.markdown("""f
+### **Captura de datos**
+
+##### Ingrese los siguientes datos 
+
+""")
+
+nombre = st.text_input('Nombre completo')
+Customer_Age =st.text_input('Edad')
+Gender = st.text_input('Genero')
+
+Gender = 1 if Gender == 'Masculino' else 0
+
+dependent = st.text_input('Número de personas a cargo')
+Education_Level = st.text_input('Nivel educativo')
+
+Marital_Status = st.text_input('Estado civil')
+
+Marital_Status = 1 if Marital_Status == 'Casado' else 0
+
+Income_Category= st.text_input('Categoría de ingresos ')
+card = st.text_input('Tipo de tarjeta')
+Months_on_book = st.text_input('Duración de la relación con el banco')
+Total_Relationship_Count = st.text_input('Número total de productos')
+Months_Inactive_12_mon= st.text_input('Número de meses de inactividad')
+cc = st.text_input('Número de contactos')
+Credit_Limit = st.text_input('Límite de crédito')
+Total_Revolving_Bal = st.text_input('Saldo rotativo total')
+Avg_Open_To_Buy = st.text_input('Línea de crédito abierta a la compra (media de los últimos 12 meses)')
+Total_Amt_Chng_Q4_Q1 = st.text_input('Variación del importe de las transacciones(cuarto trimestre sobre primer trimestre)')
+Total_Trans_Amt = st.text_input('Cantidad total de las transacciones(12 meses)')
+Total_Trans_Ct = st.text_input('Recuento de transacciones')
+Total_Ct_Chng_Q4_Q1 = st.text_input('Cambio en el recuento de transacciones')
+Avg_Utilization_Ratio =  st.text_input('Utilización promedio de la tarjeta')
 
