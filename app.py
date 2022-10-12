@@ -126,7 +126,7 @@ Marital_Status = st.selectbox('Estado Civil:',('Casado','Soltero'))
 
 Marital_Status = 1 if Marital_Status == 'Casado' else 0
 
-Income_Category= st.selectbox(('Categoría de ingresos:',('Unknown','Less than $40K','$40K - $60K','$60K - $80K','$80K - $120K','$120K +'))
+Income_Category= st.selectbox('Categoría de ingresos:',('Unknown','Less than $40K','$40K - $60K','$60K - $80K','$80K - $120K','$120K +'))
 Income_Category = 0 if Income_Category == 'Unknown'
 Income_Category = 1 if Income_Category == 'Less than $40K' 
 Income_Category = 2 if Income_Category == '$40K - $60K' 
