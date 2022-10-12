@@ -64,3 +64,10 @@ with col2:
   st.write( """Recuento de transacciones  """) 
   st.write( """Cambio en el recuento de transacciones (cuarto trimestre sobre primer trimestre) """) 
   st.write( """Índice de utilización promedio de la tarjeta """)
+  
+  
+  st.subheader(""" Graficas""")
+  st.write("A continuación se muestran nlos graficos relevantes para la descripción de variables")
+  st.image("./img/img10.png")
+  
+  
