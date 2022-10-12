@@ -101,3 +101,9 @@ st.caption('Insidencia de las variables en el modelo: beeswarm')
 
 st.image("./img/img10.png")
 st.caption('Insidencia de las variables en el modelo: waterfall')
+
+
+st.subheader("""Notebook """)
+st.write('https://github.com/ValeriaMendezC/Repositorio/blob/d014783430add3f37b81a4497141dbb6bfb70838/project8_final.ipynb')
+
+
