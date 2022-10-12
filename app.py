@@ -28,7 +28,9 @@ with col1:
   st.write( """ 14  Total_Revolving_Bal """)                                                                                                                  
   st.write( """ 15  Avg_Open_To_Buy        """) 
   st.write( ""   "")
+  st.write( ""   "")
   st.write( """ 16  Total_Amt_Chng_Q4_Q1    """)                                                                                                              
+  st.write( ""   "")
   st.write( ""   "")
   st.write( """ 17  Total_Trans_Amt   """)                                                                                                                    
  
