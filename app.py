@@ -120,20 +120,14 @@ Customer_Age =st.text_input('Edad')
 Gender = st.text_input('Genero')
 
 Gender = 1 if Gender == 'Masculino' else 0
-
-dependent = st.text_input('Número de personas a cargo')
 Education_Level = st.text_input('Nivel educativo')
-
 Marital_Status = st.text_input('Estado civil')
-
 Marital_Status = 1 if Marital_Status == 'Casado' else 0
-
 Income_Category= st.text_input('Categoría de ingresos ')
-card = st.text_input('Tipo de tarjeta')
+Card_Category = st.text_input('Tipo de tarjeta')
 Months_on_book = st.text_input('Duración de la relación con el banco')
 Total_Relationship_Count = st.text_input('Número total de productos')
 Months_Inactive_12_mon= st.text_input('Número de meses de inactividad')
-cc = st.text_input('Número de contactos')
 Credit_Limit = st.text_input('Límite de crédito')
 Total_Revolving_Bal = st.text_input('Saldo rotativo total')
 Avg_Open_To_Buy = st.text_input('Línea de crédito abierta a la compra (media de los últimos 12 meses)')
