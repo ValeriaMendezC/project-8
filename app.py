@@ -11,7 +11,7 @@ st.subheader('Descripción de variables')
 
 col1,col2=st.columns(2)
 with col1:
-  st.write("""0 CLIENTNUM""")
+  st.write("""0 CLIENTNUM: "Número de cliente"  """)
   
 with col2: 
-  st.write("""Número de cliente: Identificador único del cliente titular de la cuenta""")   
+  st.write("""Identificador único del cliente titular de la cuenta""")   
