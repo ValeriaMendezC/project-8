@@ -143,3 +143,8 @@ Total_Trans_Ct = st.text_input('Recuento de transacciones')
 Total_Ct_Chng_Q4_Q1 = st.text_input('Cambio en el recuento de transacciones')
 Avg_Utilization_Ratio =  st.text_input('Utilización promedio de la tarjeta')
 
+st.subheader("Modelo")
+
+clsr_pickle = open('clsr_randomforest.pickle','rb')
+clsr = pkl.load(clsr_pickle)
+clsr_pickle.close()
