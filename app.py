@@ -67,7 +67,7 @@ with col2:
   
   
 st.subheader(""" Graficas""")
-st.write("A continuación se muestran nlos graficos relevantes para la descripción de variables")
+st.write("A continuación se muestran los graficos relevantes para la descripción de variables")
 
 st.image("./img/Img1.png")
 st.caption('Participación por edad de las personas en el estudio')
