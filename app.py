@@ -108,7 +108,7 @@ st.write("Acontinuación encontrará el link al notebook de entrenamiento del mo
 st.write('https://github.com/ValeriaMendezC/Repositorio/blob/d014783430add3f37b81a4497141dbb6bfb70838/project8_final.ipynb')
 
 
-st.markdown("""f
+st.markdown("""
 ### **Captura de datos**
 
 ##### Ingrese los siguientes datos 
