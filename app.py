@@ -12,13 +12,15 @@ st.subheader('Descripción de variables')
 col1,col2=st.columns(2)
 with col1:
   st.write("""0 CLIENTNUM: "Número de cliente"  """)
-  st.write(""" 1   Attrition_Flag: "Variable de actividad del cliente""")
+  st.write(""" 1   Attrition_Flag: "Variable de actividad del cliente" """)
   st.write( """2   Customer_Age      """)                                                                                                                    
   st.write( """ 3   Gender          """)                                                                                                                      
   st.write( """ 4   Dependent_count  """)                                                                                                                     
   st.write( """ 5   Education_Level  """)    
   st.write( """ 6   Marital_Status: "Estado civil"   """)
-  st.write( """ 7   Income_Category """) 
+  st.write( """ 7   Income_Category 
+  
+  """) 
   st.write( """ 8   Card_Category    """)           
   st.write( """ 9   Months_on_book   """)                                                                                                                     
   st.write( """ 10  Total_Relationship_Count     """)                                                                                                         
