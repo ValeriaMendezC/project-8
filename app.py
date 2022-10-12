@@ -18,13 +18,20 @@ with col1:
   st.write( """ 4   Dependent_count  """)                                                                                                                     
   st.write( """ 5   Education_Level  """)    
   st.write( """ 6   Marital_Status: "Estado civil"   """)
-  st.write( """ 7   Income_Category 
-  
-  """) 
+  st.write( """ 7   Income_Category""") 
   st.write( """ 8   Card_Category    """)           
   st.write( """ 9   Months_on_book   """)                                                                                                                     
   st.write( """ 10  Total_Relationship_Count     """)                                                                                                         
-  st.write( """ 11  Months_Inactive_12_mon """)                                                                                                               
+  st.write( """ 11  Months_Inactive_12_mon """)                                                                                                          
+  st.write( """ 12  Contacts_Count_12_mon  """)                                                                                                               
+  st.write( """ 13  Credit_Limit          """)                                                                                                               
+  st.write( """ 14  Total_Revolving_Bal """)                                                                                                                  
+  st.write( """ 15  Avg_Open_To_Buy        """) 
+  st.write( """")
+  st.write( """ 16  Total_Amt_Chng_Q4_Q1    """)                                                                                                              
+  st.write( """")
+  st.write( """ 17  Total_Trans_Amt   """)                                                                                                                    
+ 
 
   
 with col2: 
@@ -40,3 +47,9 @@ with col2:
   st.write( """Duración de la relación con el banco en meses """)
   st.write( """Número total de productos en poder del cliente  """) 
   st.write( """Meses de inactividad en los últimos 12 meses """) 
+  st.write( """Número de contactos en los últimos 12 meses   """)
+  st.write( """Límite de crédito de la tarjeta de crédito """)
+  st.write( """Saldo rotativo total de la tarjeta de crédito """) 
+  st.write( """Línea de crédito abierta a la compra (media de los últimos 12 meses) """) 
+  st.write( """Variación del importe de las transacciones (cuarto trimestre sobre primer trimestre) """)
+  st.write( """Cantidad total de las transacciones (últimos 12 meses)   """)
