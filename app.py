@@ -9,3 +9,9 @@ st.write('A partir de la siguiente base de datos se analiza si la persona clasif
 st.dataframe(data)
 st.subheader('Descripción de variables')
 
+col1,col2=st.columns(2)
+with col1:
+  st.write("""0 CLIENTNUM""")
+  
+with col2: 
+  st.write("""Número de cliente: Identificador único del cliente titular de la cuenta""")   
