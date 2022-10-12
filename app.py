@@ -148,3 +148,4 @@ st.subheader("Modelo")
 clsr_pickle = open('clsr_randomforest.pickle','rb')
 clsr = pkl.load(clsr_pickle)
 clsr_pickle.close()
+
