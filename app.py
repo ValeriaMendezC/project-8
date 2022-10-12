@@ -149,7 +149,7 @@ clsr_pickle = open('clsr_randomforest.pickle','rb')
 clsr = pkl.load(clsr_pickle)
 clsr_pickle.close()
 
-v=[Gender,Marital_Status,Customer_Age,Education_Level,Months_on_book,Income_Category,Card_Category,
+v = [Gender, Marital_Status,Customer_Age,Education_Level,Months_on_book,Income_Category,Card_Category,
                  Total_Relationship_Count,Months_Inactive_12_mon,Credit_Limit,Total_Revolving_Bal,Avg_Open_To_Buy,
                  Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,Total_Ct_Chng_Q4_Q1,Avg_Utilization_Ratio]
 prediccion = clsr.predict([np.array(v).reshape(1,-1)][0])[0]
