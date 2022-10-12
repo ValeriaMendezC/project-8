@@ -152,4 +152,5 @@ v = [Gender, Marital_Status,Customer_Age,Education_Level,Months_on_book,Income_C
 prediction = clsr.predict([np.array(v).reshape(1,-1)][0])
     
 resultado = 'Existing customer' if prediction[0] ==1 else 'Attrited Customer'
+st.write('El cliente se clasifica como:')
 st.write(resultado)
