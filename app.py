@@ -126,14 +126,8 @@ Marital_Status = st.selectbox('Estado Civil:',('Casado','Soltero'))
 
 Marital_Status = 1 if Marital_Status == 'Casado' else 0
 
-Income_Category= st.selectbox('Categoría de ingresos:',('Unknown','Less than $40K','$40K - $60K','$60K - $80K','$80K - $120K','$120K +'))
-Income_Category = 0 if Income_Category == 'Unknown'
-Income_Category = 1 if Income_Category == 'Less than $40K' 
-Income_Category = 2 if Income_Category == '$40K - $60K' 
-Income_Category = 3 if Income_Category == '$60K - $80K'
-Income_Category = 4 if Income_Category == '$80K - $120K' 
-Income_Category = 5 if Income_Category == '$120K +'
-                            
+Income_Category= st.selectbox('Categoría de ingresos:('Unknown'=0,'Less than $40K'=1,'$40K - $60K'=2,'$60K - $80K'=3,'$80K - $120K'=4,'$120K +'=5)')
+
 Card_Category = st.number_input('Tipo de tarjeta')
 Months_on_book = st.number_input('Duración de la relación con el banco')
 Total_Relationship_Count = st.number_input('Número total de productos')
